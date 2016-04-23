@@ -12,7 +12,7 @@ select, input, textarea { font-size:14px; margin:0;font-family:"Microsoft YaHei"
 input[type="text"], input[type="password"], textarea { outline-style:none; -webkit-appearance:none; }
 textarea { resize:none; }
 table { border-collapse:collapse; }
-body { color:#313131;font:14px/22px "Microsoft YaHei","SimSun","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ }
+/*body { color:#313131;font:14px/22px "Microsoft YaHei","SimSun","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ }*/
 .clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }
 .clearfix { zoom:1; }
 .clearit { clear:both; height:0; font-size:0; overflow:hidden; }
