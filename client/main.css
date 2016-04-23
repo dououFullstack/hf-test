@@ -8,6 +8,7 @@
 .carousel-inner>.item>img{
 	width: 100%;
 }
+<<<<<<< HEAD
 /*services*/
 .title-v1 h2:after{
 	width: 110px;
@@ -58,4 +59,10 @@
 	font-size: 0.8em;
 	margin-bottom: 0;
 	opacity: 0.7;
+=======
+
+.btn-u.btn-brd.btn-u-dark {
+	color: #fff;
+	background: #3498db;
+>>>>>>> master
 }
