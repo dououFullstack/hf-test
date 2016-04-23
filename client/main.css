@@ -8,3 +8,54 @@
 .carousel-inner>.item>img{
 	width: 100%;
 }
+/*services*/
+.title-v1 h2:after{
+	width: 110px;
+	margin-left: -55px;
+}
+/*max-width: 768px*/
+.th-left{
+	width: 100%;
+	padding:10px 30px;
+}
+.th-left img{
+	margin: 0 auto;
+	border-radius: 50%;
+	border:1px solid #666;
+	display: block;
+}
+.th-right{
+	padding:10px 30px;
+}
+@media (min-width: 768px){
+	.th-left{
+		float: left;
+		width: 50%;
+	}
+	.th-right{
+		float: left;
+		width: 50%;
+	}
+}
+.toc-2 ol{
+	font-size: 18px;
+}
+.toc-2 ol p{
+	font-size: 0.8em;
+	margin-bottom: 0;
+	opacity: 0.7;
+}
+.toc-3 ul li{
+	font-size: 1.1em;
+}
+.toc-4{
+	margin-bottom: 20px;
+}
+.toc-4 ul{
+	font-size: 18px;
+}
+.toc-4 ul p{
+	font-size: 0.8em;
+	margin-bottom: 0;
+	opacity: 0.7;
+}
