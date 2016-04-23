@@ -8,3 +8,8 @@
 .carousel-inner>.item>img{
 	width: 100%;
 }
+
+.btn-u.btn-brd.btn-u-dark {
+	color: #fff;
+	background: #3498db;
+}
