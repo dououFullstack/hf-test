@@ -964,7 +964,7 @@ filter:Alpha(opacity=50); background:#000;/*实现IE背景透明*/ display: none
 	padding:10px 0 2px 20px;
 	font-size:42px;
 	color:#2195d7;
-  line-height: 42px;
+  line-height: 50px;
 }
 .second-tit p{
 	padding:2px 0 2px 20px;
@@ -1010,7 +1010,7 @@ filter:Alpha(opacity=50); background:#000;/*实现IE背景透明*/ display: none
 .style_pass li{float: left;margin-right: 26px;}
 .pass_way{color: #282828;font-size: 36px;text-align: right;}
 .top5{color: #d3212a;font-size: 42px;text-align: right;}
-.content{margin:0 auto 54px;width: 1190px;}
+/*.content{margin:0 auto 54px;width: 1190px;}*/
 .qh{color: #83378e;}
 .bd{color: #9a0000;}
 .rm{color: #9a0000;}
