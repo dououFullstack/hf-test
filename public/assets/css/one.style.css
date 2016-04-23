@@ -599,6 +599,10 @@ a:hover {
   padding-bottom: 0;
 }
 
+.video-section .about-image {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
 .block-v1 {
   padding: 50px 0;
 }
@@ -606,6 +610,11 @@ a:hover {
 .about-section .about-image {
   padding-top: 100px;
 }
+
+.video-section .about-image {
+  padding-top: 100px;
+}
+
 
 /*Icon Lists*/
 .content-boxes-v3 i.icon-custom {
