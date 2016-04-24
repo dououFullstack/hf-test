@@ -105,9 +105,6 @@ body{
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
-.get-doxue{
-	overflow: hidden;
-}
 /*合作学校部分*/
 .all-schools img{
 	display: inline;
@@ -147,4 +144,7 @@ body{
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+.get-doxue{
+	overflow: hidden;
 }
