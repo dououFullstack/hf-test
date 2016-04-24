@@ -138,3 +138,13 @@ body{
 .contacts-section2{
 	padding-top: 0px;
 }
+
+/*解决手机上显示多张背景图问题*/
+.parallax-counter-v4{
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.get-doxue{
+	overflow: hidden;
+}
