@@ -105,3 +105,12 @@ body{
 	width: 8em;
 	float:right;
 }
+
+.add-border-bottom{
+	border-bottom:3px solid #eee;
+  border-radius: 0 0 4px 4px;
+  transition: all 0.4s ease-in-out;
+}
+.add-border-bottom:hover{
+  border-color: #72c02c;
+}
