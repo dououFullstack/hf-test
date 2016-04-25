@@ -1,0 +1,71 @@
+<!-- 联系我们 -->
+<template name="contacts">
+    <!-- Contacts BEGIN -->
+  <section id="contact" class="contacts-section2 bg-color-light">
+    <div class="container content">
+      <div class="title-v1">
+        <h2>联系我们</h2>
+        <p>洪峰<strong>MBA</strong>状元导师<br>
+      疑难杂症及<strong>二战考生</strong>的最后希望</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 col-sm-6">
+          <form action="assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form contact-style">
+            <fieldset>
+              <div class="row margin-bottom-30">
+                <div class="col-md-6 col-md-offset-0">
+                  <div>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Name">
+                  </div>
+                </div>
+                <div class="col-md-6 col-md-offset-0">
+                  <div>
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Email *">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row margin-bottom-20">
+                <div class="col-md-12 col-md-offset-0">
+                  <div>
+                    <textarea rows="8" name="message" id="message" class="form-control" placeholder="Message"></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <p><button type="submit" class="btn-u">Send Message</button></p>
+            </fieldset>
+
+            <div class="message">
+              <i class="rounded-x fa fa-check"></i>
+              <p>Your message was successfully sent!</p>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <p class="lead padding-bottom-10">想获得更多的信息？通过以下形式与我们联系，或直接致电了解更多信息。</p>
+          <ul class="list-unstyled">
+            <li class="padding-bottom-10">
+              <i class="icon-custom icon-sm rounded-x icon-color-u fa fa-home"></i>
+              <h6>地址:</h6>
+              <p>海淀区苏州街20号海龙大厦11层</p>
+            </li>
+            <li class="padding-bottom-10">
+              <i class="icon-custom icon-sm rounded-x icon-color-u fa fa-phone"></i>
+              <h6>电话:</h6>
+              <p>(010)56072285 (010)56070557</p>
+            </li>
+            <li class="padding-bottom-10">
+              <i class="icon-custom icon-sm rounded-x icon-color-u fa fa-envelope"></i>
+              <h6>邮箱:</h6>
+              <a href="mailto:#" class="link-black">hf@example.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contacts END -->
+</template>
