@@ -96,6 +96,11 @@ body{
 	font-size: 0.6em;
 	float: left;
 }
+
+.news-v2 .news-v2-desc.card{
+	background-color: #f7f7f7;
+}
+
 .news-v2-desc .float-right{
 	float: right;
 }
