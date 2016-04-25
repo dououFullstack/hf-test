@@ -148,3 +148,8 @@ body{
 .get-doxue{
 	overflow: hidden;
 }
+
+/*导航小圆点位置*/
+.one-page-header .navbar-nav > li > a:before{
+	top:18px !important;
+}
