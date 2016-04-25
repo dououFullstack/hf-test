@@ -171,8 +171,8 @@ body{
 	float: right;
 }
 .my-btn{
-	margin: 10px auto;
-	margin-top: 30px;
+	margin: 30px auto;
 	display: block;
 	width: 8em;
+	float:right;
 }
