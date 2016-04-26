@@ -766,11 +766,11 @@ a:hover {
 }
 
 .footer-simple {
-  padding: 20px 0;
+  padding: 5px 0;
   border-top: 1px solid #eee;
 }
 .footer-simple p {
-  margin-top: 15px;
+  margin-top: 0;
   margin-bottom: 0;
 }
 .footer-simple .social-icons {
