@@ -46,9 +46,15 @@ body{
 	color:red;
 	font-size: 18px;
 }
-.news-v2-desc button{
+.btn.btn-success{
 	margin-top: -5px;
 	float: right;
+  background-color: #5cb85c;
+  transition: background-color 0.5s;
+}
+.btn.btn-success:hover{
+	background-color: #333;
+	color:#fff;
 }
 .news-v2 .news-v2-desc h3{
 	margin:0 0 10px;
