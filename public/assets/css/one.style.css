@@ -52,10 +52,10 @@ a:hover {
   text-decoration: underline;
 }
 
-::selection {
+/*::selection {
   color: #fff;
   background: #72c02c;
-}
+}*/
 
 .navbar-fixed-bottom .navbar-collapse,
 .navbar-fixed-top .navbar-collapse {
@@ -789,6 +789,6 @@ a:hover {
 
 /*Spaces
 ------------------------------------*/
-.padding-top-60 {
-  padding-top: 60px;
+.padding-top-30 {
+  padding-top: 30px;
 }
