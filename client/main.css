@@ -125,3 +125,27 @@ body{
 .add-border-bottom:hover{
   border-color: #72c02c;
 }
+
+/*跳转到顶部*/
+.fa.fa-angle-up{
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	color:#fff;
+	background-color: rgba(0,0,0,0.4);
+	width: 1.2em;
+	height: 1.2em;
+	line-height: 1.2em;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 32px;
+	font-weight: bold;
+	z-index: 100;
+	cursor: pointer;
+	display: none;
+}
+@media (max-width:768px ){
+	.fa.fa-angle-up{
+		right: 1em;
+	}
+}
