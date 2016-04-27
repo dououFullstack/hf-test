@@ -55,9 +55,9 @@ Router.map(function() {
     }
   });
 
-  this.route('baidu', {
-    path: '/baidu',
-    template: 'baidu',
+  this.route('cckf', {
+    path: '/cckf',
+    template: 'cckf',
     yieldTemplates: {
       'header': { to: 'header' },
       'footer': { to: 'footer' },
