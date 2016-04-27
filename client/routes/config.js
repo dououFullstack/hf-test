@@ -54,4 +54,13 @@ Router.map(function() {
       'footer': { to: 'footer' },
     }
   });
+
+  this.route('baidu', {
+    path: '/baidu',
+    template: 'baidu',
+    yieldTemplates: {
+      'header': { to: 'header' },
+      'footer': { to: 'footer' },
+    }
+  });
 })
