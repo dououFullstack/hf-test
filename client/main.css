@@ -47,6 +47,7 @@ body{
 .all-schools img{
 	display: inline;
 	margin: 0 5px;
+	width:12vw;
 }
 .img-responsive{
 	width: 100%;
