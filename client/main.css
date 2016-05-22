@@ -214,3 +214,12 @@ body{
 	color:red;
 	margin-right: 3px;
 }
+
+.cadidate-mid{
+  margin: 0 auto;
+	text-emphasis: center;
+}
+.cadidate-mid p{
+  color: #555;
+  line-height: 30px;
+}
