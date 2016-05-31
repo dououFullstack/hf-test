@@ -47,7 +47,7 @@ body{
 .all-schools img{
 	display: inline;
 	margin: 0 5px;
-	width:12vw;
+	width:8vw;
 }
 .img-responsive{
 	width: 100%;
@@ -194,10 +194,10 @@ body{
 	margin-bottom: 20px;
 }
 @media (min-width: 768px){
-	.video_teacher {
+/*	.video_teacher {
 		font-size: 100px;
 		margin-left: 0px;
-	}
+	}*/
 }
 .recording {
 	width:100%;
@@ -222,4 +222,40 @@ body{
 .cadidate-mid p{
   color: #555;
   line-height: 30px;
+}
+.section-num{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	border:2px solid white;
+	text-align:center;
+	font-size:17px;
+	margin-left:15px;
+	margin-bottom:5px;
+	color:#fff;
+}
+.content-boxes-v3{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.content-boxes-v3:nth-child(2n-1){
+	background:rgba(76, 204, 238, 1);
+}
+.content-boxes-v3:nth-child(2n){
+	background:rgba(74, 242, 161, 1);
+}
+@media (min-width: 992px){
+	.content-boxes-v3:nth-child(4n+1){
+		background:rgba(76, 204, 238, 1);
+	}
+	.content-boxes-v3:nth-child(4n+2){
+		background:rgba(74, 242, 161, 1);
+	}
+	.content-boxes-v3:nth-child(4n+3){
+		background:rgba(74, 242, 161, 1);
+	}
+	.content-boxes-v3:nth-child(4n+4){
+		background:rgba(76, 204, 238, 1);
+	}
 }
